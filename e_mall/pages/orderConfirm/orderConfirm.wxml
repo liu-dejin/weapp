@@ -1,0 +1,41 @@
+<!-- pages/confirmOrder/confirmOrder.wxml -->
+
+
+<view class="confirm-order-page">
+  <view class="address-section">
+    <text class="address-line">陕西省西安市雁塔区鱼化寨街道</text>
+    <text class="bold-address-line">西安职业技术学院</text>
+    <text class="address-line">刘 15984849483</text>
+  </view>
+  <view class="product-section">
+    <!-- 左边图片 -->
+    <image class="product-image" src="/home-images/item1.webp"></image>
+
+    <!-- 右边商品解释 -->
+    <view class="product-info">
+      <text class="product-name">Redmi K70 12GB+256GB 晴雪 </text>
+      <text class="product-specs">12GB+256GB 晴雪 </text>
+      <text class="product-price">价格:￥2499</text>
+    </view>
+  </view>
+  <view class="delivery-time-section">
+    <text class="delivery-date">配送日期：2024-01-03</text>
+    <text class="estimated-delivery">预计明日送达</text>
+  </view>
+  <view class="price-section">
+    <view class="price-item">商品总价：<text class="price-value">￥2499</text></view>
+    <view class="price-item">优惠券：<text class="price-value">-￥100</text></view>
+    <view class="price-item">会员券：<text class="price-value">-￥30</text></view>
+    <view class="price-item">礼品卡：<text class="price-value">-￥40</text></view>
+    <view class="price-item">现金券：<text class="price-value">-￥50</text></view>
+    <view class="price-item">红包：<text class="price-value">-￥20</text></view>
+    <view class="price-item">运费：<text class="price-value">￥10</text></view>
+  </view>
+  <view class="invoice-section">
+    <view class="price-item">发票<text class="price-value">个人电子发票-个人</text></view>
+  </view>
+  <view class="total-amount-section">
+    <text class="total-amount">商品合计金额：￥2269</text>
+    <button class="pay-button" bindtap="goToPayment">去付款</button>
+  </view>
+</view>

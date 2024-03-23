@@ -1,0 +1,55 @@
+<view class="container">  
+  <swiper class="swiper-container top-carousel" indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true" style="width: 100%; height: 30vh;">  
+    <swiper-item class="carousel-item">  
+      <image src="/img-轮播/hh5504e2a3shh5504e2a3s.png" class="carousel-image" />  
+    </swiper-item>  
+    <swiper-item class="carousel-item">  
+      <image src="/img-轮播/c4410d1178f8d47feca06d6f9dda526.jpg" class="carousel-image" />  
+    </swiper-item>  
+    <swiper-item class="carousel-item">  
+      <image src="/img-轮播/u=3482875497,3089761366&fm=253&fmt=auto&app=138&f=JPEG.webp" class="carousel-image" />  
+    </swiper-item>  
+  </swiper>  
+</view>
+
+<view>
+ <!-- 九宫格区域 -->  
+ <view class="grid-container">  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/冰淇淋.png" />  
+      <text class="grid-text">冰淇淋</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/布丁.png" />  
+      <text class="grid-text">布丁</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/棒棒糖.png" />  
+      <text class="grid-text">棒棒糖</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/爆米花.png" />  
+      <text class="grid-text">爆米花</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/牛排.png" />  
+      <text class="grid-text">牛排</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/蛋挞.png" />  
+      <text class="grid-text">蛋挞</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/蛋糕.png" />  
+      <text class="grid-text">蛋糕</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/蜂蜜.png" />  
+      <text class="grid-text">蜂蜜</text>  
+    </view>  
+    <view class="grid">  
+      <image class="grid-image" src="/img-九宫/饼干.png" />  
+      <text class="grid-text">饼干</text>  
+    </view>  
+  </view>  
+</view>

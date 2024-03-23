@@ -1,0 +1,18 @@
+<image src="/images/背景.jpg" mode="" class="bgi"/>
+
+<view class="icon">
+<image src="/images/天气.png" mode=""/>
+</view>
+
+<view class="content">
+  <view>{{weather.temperature}}℃</view>
+  <view>{{weather.maxtemperature}}℃/{{weather.mintemperature}}℃</view>
+  <view>相对湿度{{weather.humidity}}</view>
+  <view>{{weather.city}}</view>
+</view>
+
+<view class="footer">
+  <view>{{weather.time}}</view>
+  <view>{{weather.maxtemperature}}℃/{{weather.mintemperature}}℃</view>
+  
+</view>

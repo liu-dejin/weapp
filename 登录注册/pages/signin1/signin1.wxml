@@ -1,0 +1,10 @@
+<form>  
+  <view class="phone">  
+    <input name="phone" type="tel" placeholder="+86     请输入手机号" readonly />  
+  </view>  
+  <radio class="radio">
+  同意
+  <text class="radio">京东用户注意协议</text>
+  </radio>
+</form>
+<view class="button"> 下一步</view>

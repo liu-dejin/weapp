@@ -1,0 +1,10 @@
+<view>
+<swiper>
+  <swiper-item>
+    <image src="/image/1000.webp" mode=""/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/image/src=http___safe-img.xhscdn.com_bw1_d22fb1c3-bbf0-4e34-bce1-e016f96250e6_imageView2_2_w_1080_format_jpg&refer=http___safe-img.xhscdn.webp" mode=""/>
+  </swiper-item>
+</swiper>
+</view>

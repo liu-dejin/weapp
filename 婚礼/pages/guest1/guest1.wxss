@@ -1,0 +1,41 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content{
+  width: 80vw;
+  height: 40vh;
+  position: absolute;
+  left: 10vw;
+  bottom: 10vh;
+}
+
+.content .input{
+  border: black 1rpx solid ;
+  border-radius: 7%;
+  padding: 1.5vh 1.5vw;
+  margin-bottom: 1.5vh;
+  font-size: large;
+  color: red;
+}
+
+.content .redio {
+  margin-bottom: 1.5vh;
+  font-size: large;
+  color: red;
+}
+
+.content .check{
+  margin-bottom: 1.5vh;
+  font-size: large;
+  color: red;
+}
+
+.content button{
+  font-size: large;
+  color:white;
+  background-color: red;
+  /* margin-left: 20rpx; */
+
+}

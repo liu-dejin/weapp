@@ -1,0 +1,27 @@
+<image class="bg" src="/images/bj_2.png" />
+<form >
+  <view class="content">
+  <view class="input">
+    <input type="name" placeholder-class="phcolor" placeholder="请输入你的名字" />
+  </view>
+  <view class="input">
+    <input type="phone" placeholder-class="phcolor" placeholder="请输入你的手机号码" />
+  </view>
+  <view class="redio">
+    <text>请输入你的性别:</text>
+    <redio-grouo>
+      <radio>男</radio>
+      <radio>女</radio>
+    </redio-grouo>
+  </view>
+<view class="check">
+  <text>请输入你需要的糕点</text>
+  <checkbox-group >
+    <checkbox>蛋糕</checkbox>
+    <checkbox>甜甜圈</checkbox>
+    <checkbox>巧克力</checkbox>
+  </checkbox-group>
+</view>
+<button>提交</button>
+</view>
+</form>

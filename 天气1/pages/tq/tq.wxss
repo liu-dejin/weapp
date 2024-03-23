@@ -1,0 +1,37 @@
+.bgi{
+  width: 100vw;
+  height: 100vh;
+}
+.icon image {
+  width: 20vw;
+  height: 20vh;
+  position: absolute;
+  top: 7vh;
+  left: 40vw;
+  right: 40vw;
+}
+.content{
+  color: rgb(103, 13, 206);
+  position: absolute;
+  top: 29vh;
+  left: 38%;
+  text-align: center;
+}
+
+.content view{
+  margin-top: 4vh;
+  font-size: large;
+}
+.content view:nth-child(1){
+  font-size: 60px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 20vh;
+  display: flex;
+}
+.footer view {
+  margin-left: 6vw;
+  margin-right: 20vw ;
+}

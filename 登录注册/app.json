@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/signin2/signin2",
+    "pages/signin1/signin1",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

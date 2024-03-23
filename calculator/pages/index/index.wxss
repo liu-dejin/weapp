@@ -1,0 +1,73 @@
+
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #555;
+}
+
+.content {
+  flex: 1;
+  background: white;
+  position: relative;
+}
+
+.content-num {
+  position: absolute;
+  font-size: 100rpx;
+  font-weight: 500;
+  bottom: 3vh;
+  right: 3vw;
+}
+
+.content-sub {
+  font-size: 40rpx;
+  position: absolute;
+  bottom: 16vh;
+  right: 3vw;
+}
+
+.btns {
+  flex: 1;
+}
+
+
+.bg {
+  background: pink;
+}
+
+.btns {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 38rpx;
+  border-top: 1.5rpx solid #ccc;
+  border-left: 1.5rpx solid #ccc;
+}
+
+.btns > view {
+  flex: 1;
+  display: flex;
+}
+
+.btns > view > view {
+  flex-basis: 25%;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns > view:last-child > view:first-child {
+  flex-basis: 50%;
+}
+
+.btns > view:first-child > view:first-child {
+  color: #ff0000;
+}
+
+.btns > view > view:last-child {
+  color: #fc8e00;
+}

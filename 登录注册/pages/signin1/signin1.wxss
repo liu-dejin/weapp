@@ -1,0 +1,22 @@
+.phone{
+  margin: 2vh 2vw 2vh 1vh;
+  padding: 2vh 5vw 2vh 5vw;
+  border: 1rpx solid black;
+}
+
+.radio .radio{
+  font-size: large;
+}
+
+.button{
+  border: rgba(0, 0, 0, 0.747) 1rpx solid;
+  font-size: large;
+  width: 90vw;
+  height: 6vh;
+  color: black;
+  background-color:white;
+ margin: 5vh 5vw ;
+  padding-top: 1vh;
+  text-align: center;
+  border-radius: 4%;
+}

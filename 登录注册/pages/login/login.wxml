@@ -1,0 +1,21 @@
+<form bindsubmit="">
+  <view class="text">
+  <text>账户</text>
+  <input name="text" placeholder="手机号/会员号/邮箱" />
+</view>
+
+<view class="hx"></view>
+
+<view class="passwd">
+  <text>密码</text>
+  <input name="passwd" placeholder="请输入正确的密码" />
+</view>
+
+<view class="button">登录</view>
+
+</form>
+<view class="other">
+<navigator url="/pages/signin1/signin1">手机快速注册</navigator>
+<navigator url="/pages/signin2/signin2">企业快速注册</navigator>
+<navigator url="">找回密码</navigator>
+</view>

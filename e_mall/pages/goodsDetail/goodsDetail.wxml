@@ -1,0 +1,10 @@
+<!-- goodsDetail.wxml -->
+<view class="container">
+  <image class="goods-image" src="{{goodsImage}}" mode="aspectFill"></image>
+  <view class="goods-info">
+    <text class="goods-name">{{goodsName}}</text>
+    <text class="goods-price">{{goodsPrice}}</text>
+  </view>
+  <text>Redmi K70 第二代骁龙® 8 小米澎湃OS 第二代2K屏 120W+5000mAh 12GB+256GB 晴雪 小米红米K70 至尊</text>
+  <button bindtap="buyNow" class="buy-btn">立即购买</button>
+</view>

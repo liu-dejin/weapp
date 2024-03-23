@@ -1,0 +1,17 @@
+<view class="content">
+  <input type="text" name="" id="" placeholder="请设置4-20位用户名" />
+  <input type="safe-password" name="" id="" placeholder="请设置6-20登录密码" />
+  <input type="text" name="" id="" placeholder="请填写工商局注册名称" />
+  <input type="text" name="" id="" placeholder="请输入姓名" />
+  <view class="phone-yzm">
+    <input class="phone" type="text" name="" id="" placeholder="请输入手机号" />
+    <view class="yzm">发送验证码</view>
+  </view>
+
+  <input type="text" name="" id="" placeholder="短信验证码" />
+
+  <view class="button">注册</view>
+
+  <text>注册即视我同意</text>
+  <text class="xy">  《京东用户注册协议》</text>
+</view>

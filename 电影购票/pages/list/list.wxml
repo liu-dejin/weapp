@@ -1,0 +1,43 @@
+<view class="index">
+  <view class="gang"></view>
+  <view class="container1">
+    <image src="/img/微信图片_20230926150429.jpg" class="avatar"></image>
+    <text class="login-text">立即登录</text>
+  </view>
+  <view class="gang"></view>
+  <view class="container2">
+    <view class="item">
+      <image src="/img//电影.png" class="icon"></image>
+      <text>电影票</text>
+    </view>
+    <view class="item">
+      <image src="/img/演出.png" class="icon"></image>
+      <text>演出票</text>
+    </view>
+    <view class="item">
+      <image src="/img/我的优惠券.png" class="icon"></image>
+      <text>优惠券</text>
+    </view>
+    <view class="item">
+      <image src="/img/影城卡.png" class="icon"></image>
+      <text>影音卡</text>
+    </view>
+  </view>
+  <view class="gang"></view>
+
+  <view class="container3">
+    <view class="content">我的会员</view>
+    <view class="gang"></view>
+
+    <view class="content">想看的电影</view>
+    <view class="gang"></view>
+
+    <view class="content">看过的电影</view>
+    <view class="gang"></view>
+
+    <view class="content">帮助中心</view>
+    <view class="gang"></view>
+
+    <view class="content">设置</view>
+  </view>
+</view>

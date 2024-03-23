@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/goodsDetail/goodsDetail",
+    "pages/classify/classify",
+    "pages/cart/cart",
+    "pages/orderConfirm/orderConfirm",
+    "pages/payment/payment"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationStyle": "default"
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/tab-bar-icon/home-icon.png",
+      "selectedIconPath": "/tab-bar-icon/home-icon-select.png"
+    },
+    {
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "/tab-bar-icon/classify-icon.png",
+      "selectedIconPath": "/tab-bar-icon/classify-icon-select.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "/tab-bar-icon/cart-icon.png",
+      "selectedIconPath": "/tab-bar-icon/cart-icon-select.png"
+    }
+    ]
+  }
+}

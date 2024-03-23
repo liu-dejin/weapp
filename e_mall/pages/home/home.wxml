@@ -1,0 +1,77 @@
+<view>
+</view>
+<view class="top-bar">
+  <!-- 第一块：官网logo -->
+  <image class="logo" src="/home-images/logo.png"></image>
+
+  <!-- 第二块：搜索框 -->
+  <view class="search-box">
+    <input class="search-input" placeholder="Xiaomi14"></input>
+  </view>
+
+  <!-- 第三块：消息图标 -->
+  <image class="message-icon" src="/home-images/message.png"></image>
+</view>
+
+
+<!-- 轮播图区域 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper">
+  <block wx:for="{{imageUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 八宫格 -->
+<view class="grid-container">
+  <!-- 第一行 -->
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">小米上新</text>
+  </view>
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">小米发布</text>
+  </view>
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">米金商城</text>
+  </view>
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">会员专享</text>
+  </view>
+
+  <!-- 第二行 -->
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">电脑</text>
+  </view>
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">手机</text>
+  </view>
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">电视</text>
+  </view>
+  <view class="grid-item">
+    <image class="grid-icon" src="/home-images/phone.webp"></image>
+    <text class="grid-text">家电</text>
+  </view>
+</view>
+
+<!-- 热门推荐区域 -->
+<view class="recommend-container">
+  <view class="recommend-title">热门推荐</view>
+  <scroll-view class="recommend-list" scroll-x="{{true}}" scroll-with-animation="{{true}}">
+    <!-- 推荐商品列表 -->
+    <view wx:for="{{recommendItems}}" wx:key="index" class="recommend-item" bindtap="goToGoodsDetail">
+  <image bindtap="goodsDetail" class="recommend-img" src="{{item.image}}"></image>
+  <text class="recommend-name">{{item.name}}</text>
+  <text class="recommend-price">{{item.price}}</text>
+</view>
+  </scroll-view>
+</view>
+

@@ -1,0 +1,133 @@
+/* confirmOrder.wxss */
+
+/* 收货地址 */
+.confirm-order-page {
+  margin-top: 40rpx;
+  padding: 20rpx;
+
+}
+
+.address-section {
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  border: 1rpx solid #ccc;
+  padding: 10rpx;
+  border-radius: 5rpx;
+}
+
+
+.bold-address-line {
+  display: block;
+  margin-bottom: 5rpx;
+  font-size: 14px;
+  color: #333;
+  font-size: 16px; /* 加大字体大小 */
+  font-weight: bold; /* 加粗 */
+}
+/* 商品信息区域 */
+.product-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.product-image {
+  width:190rpx;
+  height: 180rpx;
+  margin-right: 10rpx;
+  border-radius: 5rpx;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-specs{
+  font-size: 14px;
+  color: #333;
+  margin-top: 5rpx;
+  display: block; 
+}
+
+.product-price {
+  font-size: 14px;
+  color: #ff6600;
+  margin-top: 5rpx;
+  display: block; 
+}
+/* 配送时间 */
+.delivery-time-section {
+  margin-bottom: 40rpx;
+}
+
+.delivery-date {
+  font-size: 14px;
+  color: #333;
+}
+
+.estimated-delivery {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5rpx;
+}
+/* 价格信息 */
+.price-section {
+  display: flex;
+  flex-direction: column;
+  border: 1rpx solid #ccc;
+  padding: 10rpx;
+  border-radius: 5rpx;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rpx;
+}
+
+.price-value {
+  color: #333; 
+}
+
+.invoice-section{
+  margin-bottom: 20rpx;
+  padding: 10rpx;
+  border-radius: 5rpx;
+}
+
+
+/* confirmOrder.wxss */
+
+.total-amount-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* 将内容放在最右边 */
+}
+
+.total-amount {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 1rpx;
+}
+
+.total-amount-value {
+  color: #f00; /* 价格颜色可以根据实际需要调整 */
+}
+
+.pay-button {
+  background-color: #ff6600; /* 黄色背景 */
+  color: #fff; /* 白色字体 */
+  padding: 10rpx;
+  border: none;
+  border-radius: 5rpx;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
